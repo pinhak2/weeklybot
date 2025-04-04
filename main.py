@@ -2,8 +2,6 @@ import discord
 from discord.ext import tasks
 import datetime
 
-TOKEN = ""
-CHANNEL_ID = 0
 
 intents = discord.Intents.default()
 intents.message_content = True
